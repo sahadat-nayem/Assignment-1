@@ -1,0 +1,113 @@
+.azeret-mono-normal{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  /* Shared Style */
+  .color{
+    color: #0D1321;
+  }
+  .btn-primary{
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 17px;
+    border-radius: 8px;
+  }
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 55px 174px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 28px;
+}
+nav ul li{
+    list-style: none;
+    border: 8px;
+    padding: 17px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Button Style */
+.btn{
+    position: static;
+    background-color: #0D1321;
+    color: #FFFFFF;
+    font-size: 21px;
+    padding: 21px 24px 21px 24px;
+    border: 8px;
+    border-radius: 8px;
+    width: 208px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+
+    
+}
+/* Banner Styles */
+.banner{
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    height: 652px;
+    
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+}
+.banner-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner-profile-pic{
+    width: 240.28px;
+    height: 240px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 800px;
+}
+/* Section style */
+.section-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
