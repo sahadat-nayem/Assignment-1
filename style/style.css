@@ -99,7 +99,7 @@ nav ul li a{
     max-width: 80%;
     margin: 0 auto;
 }
-.section-div{
+.sub-section{
     margin-top: 141px;
     margin-bottom: 56px;
 }
@@ -123,7 +123,7 @@ nav ul li a{
 }
 /* Resume Section Style */
 .resume{
-    background-color: #FFFFFF;
+    background-color: ;
     display: flex;
     justify-content: space-around;
     padding: 50px 80px;
@@ -158,4 +158,41 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.youtube{
+text-align: center;
+width:auto 1076px;
+border: 16px;
+margin: 36px;
+height: 550px;
+}
+/* Skills Section Style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-1{
+    padding: 40px;
+    border-radius: 16px;
+    width: 364px;
+    background-color:rgba(255, 76, 30, 0.05);
+    margin: 0 auto;
+}
+.skill-2{
+    padding: 40px;
+    border-radius: 16px;
+    width: 364px;
+    background-color:rgba(0, 76, 232, 0.05);
+    margin: 0 auto;
+}
+.skill-3{
+    padding: 40px;
+    border-radius: 16px;
+    width: 364px;
+    background-color:rgba(255, 223, 0, 0.05);
+    margin: 0 auto;
 }
