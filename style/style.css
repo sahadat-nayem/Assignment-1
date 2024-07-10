@@ -99,13 +99,12 @@ nav ul li a{
     max-width: 80%;
     margin: 0 auto;
 }
-.sub-section{
+.section-div{
     margin-top: 141px;
     margin-bottom: 56px;
 }
 .section-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
@@ -114,12 +113,14 @@ nav ul li a{
 }
 .section-description{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400;`
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+}
+.section-video{
+    /* display: block */
 }
 /* Resume Section Style */
 .resume{
@@ -195,4 +196,51 @@ height: 550px;
     width: 364px;
     background-color:rgba(255, 223, 0, 0.05);
     margin: 0 auto;
+}
+/* Footer Style */
+
+.footer-column{
+    background-image:url("../assets/handshake.jpg");
+    position: absolute;
+    width: 1140px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding: 64px 48px 64px 48px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 130px;
+}
+textarea{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+}
+.footer-title{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer-description{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
 }
